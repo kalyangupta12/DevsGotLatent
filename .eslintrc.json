@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "react-hooks/exhaustive-deps": "warn",
+    "no-unused-vars": "warn",
+    "quotes": ["warn", "double", { "allowTemplateLiterals": true }],
+    "semi": ["warn", "always"],
+    // npx eslint . --fix
+    // This will automatically add semicolons where needed.
+    "indent": ["error", 2]
+  }
+}
