@@ -3,9 +3,9 @@ import { ShimmerButton } from "./magicui/shimmer-button";
 
 export const Hero = () => {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center h-[400px]">
       <div className=" ">
-        <h1 className="  font-bold text-5xl md:text-7xl lg:text-[180px] ">
+        <h1 className=" font-bold text-5xl md:text-7xl lg:text-[180px] ">
           Dev&apos;s Got Latent
         </h1>
       </div>
@@ -15,7 +15,7 @@ export const Hero = () => {
           feedback, and collaborate with developers worldwide.
         </p>
       </div>
-      <div className="flex gap-x-6 items-center">
+      <div className="flex  gap-x-6 items-center">
         <RainbowButton className="w-100% text-xl py-4">
           Explore Projects
         </RainbowButton>
