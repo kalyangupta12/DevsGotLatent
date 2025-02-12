@@ -118,7 +118,7 @@ export function Footer() {
         </div>
         <div className="mt-8 pt-8 border-t border-border text-sm text-center text-muted-foreground">
           <p>
-            &copy; {new Date().getFullYear()} DevShowcase. All rights reserved.
+            &copy; {new Date().getFullYear()} Dev&apos;s Got Latent. All rights reserved.
           </p>
         </div>
       </div>

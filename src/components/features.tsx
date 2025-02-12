@@ -61,7 +61,7 @@ interface GridItemProps {
 const GridItem = ({ area, icon, title, description }: GridItemProps) => {
   return (
     <li className={`min-h-[14rem] list-none ${area}`}>
-      <div className="relative h-full rounded-2.5xl border  p-2  md:rounded-3xl md:p-3">
+      <div className="relative h-full rounded-2.5xl border  p-2  md:rounded-3xl md:p-3 bg-gradient-to-br from-white dark:bg-gradient-to-br dark:from-black slide-in-from-top-10">
         <GlowingEffect
           blur={0}
           borderWidth={3}
