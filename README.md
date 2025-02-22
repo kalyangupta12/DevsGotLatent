@@ -1,5 +1,5 @@
 # DevGotLatent
-
+# Coming soon! its open for collaboration 
 A platform where developers can upload, share, and receive feedback on their projects. Features include AI-powered chatbots for roasting projects, providing constructive feedback, and real-time interaction.
 
 <!-- ![Demo](assets/demo.gif) Add a demo GIF/image later -->
